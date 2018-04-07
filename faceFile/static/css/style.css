@@ -1,0 +1,366 @@
+body,
+html {
+    height: 100%;
+    /* min-width: 1220px; */
+    /* overflow-x: auto; */
+    position: relative;
+    font-family: Roboto, San Francisco, "Helvetica Neue", Helvetica, Arial, PingFangSC-Light, "Hiragina Sans GB", "WenQuanYi Micro Hei", 'microsoft yahei ui', 'microsoft yahei', sans-serif;
+}
+
+h2,
+input {
+    margin: 0;
+}
+
+button,
+input[type=button],
+input[type=submit],
+select {
+    cursor: pointer;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.personal-settings,
+.cost,
+.order {
+    height: 100%;
+    position: relative;
+}
+
+.el-container {
+    height: 100%;
+}
+
+.el-aside {
+    background-color: #545C64;
+    text-align: center;
+    width: 200px !important;
+}
+
+.el-main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 200px;
+    /* background-color: #fff; */
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+}
+
+.login-wrapper {
+    width: 100%;
+    height: 100%;
+    background: url("../img/qcloud-login-bg.jpg?nowebp") top center no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 640px;
+}
+
+.tc-15-btn.search:before {
+    background-image: url("../img/account-center-201801300959-svg.png");
+    background-image: -webkit-image-set(url("../img/account-center-201801300959-svg.png")1x, url("../img/account-center-201801300959.svg") 2x);
+    background-position: 24.553571428571427% 73.80952380952381%;
+    background-size: 1500% 1412.5%;
+    background-repeat: no-repeat;
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+
+.regist-header .logo {
+    background-image: url("../img/logo.png");
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.fm-dropdown .mobile-code-dropdown .arr {
+    display: inline-block;
+    width: 12px;
+    height: 7px;
+    background-image: url("../img/regist-v20180108-201802070848.png");
+    position: absolute;
+    right: 5px;
+    top: 19px;
+    background-position: -67px -36px;
+}
+
+.fm-dropdown .mobile-code-dropdown .flag:not(.icon):before {
+    display: inline-block;
+    content: '';
+    background: url("../img/flags.png") -108px -1976px no-repeat;
+    width: 16px;
+    height: 11px;
+}
+
+.lg-aside-event-txt-icon {
+    background-image: url("../img/login-v20180108-201802011033.svg");
+    width: 16px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-position: 74.83999999999999% 48.29%;
+    background-size: 2012.5% 2291.666666666667%;
+    background-repeat: no-repeat;
+}
+
+.plaint-icon {
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/account-center-201801300959-svg.png");
+    background-image: -webkit-image-set(url("../img/account-center-201801300959-svg.png")1x, url("../img/account-center-201801300959.svg") 2x);
+    background-position: 91.51785714285714% 77.61904761904762%;
+    background-size: 1500% 1412.5%;
+    background-repeat: no-repeat;
+}
+
+.info-text-icon.email {
+    background-image: url("../img/account-center-201801300959-svg.png");
+    background-image: -webkit-image-set(url("../img/account-center-201801300959-svg.png")1x, url("../img/account-center-201801300959.svg") 2x);
+    background-position: 56.69642857142857% 99.52380952380952%;
+    background-size: 1500% 1412.5%;
+    background-repeat: no-repeat;
+}
+
+.qc-log-checkbox:checked {
+    background-image: url("../img/regist-v20180108-201802070848.png");
+    background-position: -31px 0px;
+}
+
+.qc-log-checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    vertical-align: middle;
+    outline: 0;
+    background: 0 0\9;
+    background-image: url("../img/regist-v20180108-201802070848.png");
+    -webkit-appearance: none;
+    background-position: 0px -15px;
+}
+
+.el-main {
+    padding: 0 !important;
+}
+
+
+/* pdf.vue and authentication.vue css开始*/
+
+.pdf {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    box-sizing: border-box;
+}
+
+.pdfSpan {
+    margin: 20px 0;
+}
+
+.pdf span {
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.pdf h2,
+.pdf h3,
+.pdf h4 {
+    padding: 5px 0 !important;
+}
+
+.pdf>h2,
+h3,
+h4,
+h5,
+span,
+p {
+    /* padding: 5px 0; */
+}
+
+.pdfMain {
+    width: 80%;
+    background-color: #f3f3f3;
+    /* display: table-cell; */
+    vertical-align: top;
+    font-size: 16px;
+    padding: 40px;
+    box-shadow: 0 5px 12px #000;
+    margin: 20px auto;
+}
+
+.icon-feedback-down,
+.icon-feedback-up {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+    width: 32px;
+    height: 32px;
+}
+
+.icon-feedback-up {
+    background-image: url("../img/pandect-201802071351.svg");
+    background-position: 88.22% 15.97%;
+    background-size: 1506.25% 1450%;
+    background-repeat: no-repeat;
+}
+
+.icon-feedback-down {
+    background-image: url("../img/pandect-201802071351.svg");
+    background-position: 0.22% 99.77000000000001%;
+    background-size: 1506.25% 1450%;
+    background-repeat: no-repeat;
+}
+
+.markdown-code-bd {
+    position: relative;
+    border: 1px solid #d9d9d9;
+}
+
+.markdown-code-bd .code-toolbars {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 2;
+    padding-left: 0;
+}
+
+.markdown-text-box ul {
+    padding: 0 0 0 17px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.markdown-code-bd .code-toolbars>li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    position: relative;
+}
+
+.markdown-code-bd .code-toolbars-item {
+    display: block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.markdown-code-bd .code-toolbars-item .icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.markdown-code-bd .code-toolbars-item .icon.copy {
+    background-image: url("../img/pandect-201802071351.svg");
+    background-position: 99.79% 48.44%;
+    background-size: 3012.5% 2900%;
+    background-repeat: no-repeat;
+}
+
+
+/* .markdown-code-bd .code-toolbars-item .icon {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../static/images/webFiles/sprite/pandect-201802071351.svg");
+    background-position: 99.79% 48.44%;
+    background-size: 3012.5% 2900%;
+    background-repeat: no-repeat;
+} */
+
+.markdown-code-bd .code-dropdown {
+    position: absolute;
+    top: 100%;
+    margin-top: 11px;
+    z-index: 100;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1.5;
+    display: none;
+    width: 150px;
+}
+
+.markdown-code-bd .code-dropdown-align-center {
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    text-align: center;
+}
+
+.markdown-code-bd pre {
+    background: #f2f2f2;
+}
+
+.markdown-code-bd pre {
+    margin-top: 0;
+    margin-bottom: 0;
+    font: 14px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 16px;
+    overflow: auto;
+    line-height: 1.45;
+    background-color: #f7f7f7;
+    border-radius: 3px;
+    word-wrap: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.markdown-code-bd pre>code {
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+}
+
+.markdown-code-bd pre code {
+    display: inline;
+    max-width: initial;
+    padding: 0;
+    margin: 0;
+    overflow: initial;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+}
+
+.hljs-literal,
+.hljs-number,
+.hljs-tag .hljs-attr,
+.hljs-template-variable,
+.hljs-variable {
+    color: teal;
+}
+
+.hljs-doctag,
+.hljs-string {
+    color: #d14;
+}
